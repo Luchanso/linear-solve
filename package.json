@@ -1,6 +1,6 @@
 {
    "description" : "Solve a system of linear equations. Invert a matrix. Nothing else",
-   "version" : "1.0.0",
+   "version" : "1.0.1",
    "keywords" : [
       "linear",
       "algebra",
@@ -10,12 +10,18 @@
       "invert",
       "matrix"
    ],
+   "scripts": {
+      "test": "mocha"
+   },
    "license" : "MIT",
-   "homepage" : "https://github.com/lovasoa/linear-solve",
+   "homepage" : "https://github.com/Luchanso/linear-solve",
    "repository" : {
-      "url" : "http://github.com/lovasoa/linear-solve.git",
+      "url" : "http://github.com/Luchanso/linear-solve.git",
       "type" : "git"
    },
    "name" : "linear-solve",
-   "main" : "./gauss-jordan.js"
+   "main" : "./gauss-jordan.js",
+   "dependencies": {
+      "should": "^7.1.0"
+   }
 }
